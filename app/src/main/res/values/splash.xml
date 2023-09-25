@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Theme.StunThink.Splash" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">#FFFFFF</item>
-        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
-        <item name="postSplashScreenTheme">@style/StunThink</item>
+        <item name="windowSplashScreenAnimationDuration">10000</item>
+        <item name="windowSplashScreenBackground">#FF00629E</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/stunthink_logo_white_splash</item>
+        <item name="splashScreenIconSize">150dp</item>
+        <item name="postSplashScreenTheme">@style/Theme.StunThink</item>
     </style>
 </resources>
